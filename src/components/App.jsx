@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../App.css";
 import Axios from "axios";
 import Display from "./Display";
 
@@ -17,10 +16,11 @@ function App() {
   });
 
   // API call
-  const searchPokemon = () => {
+  function searchPokemon() {
     Axios.get(`https://pokeapi.co/api/v2/pokemon/${pokeName}`).then(
       (response) => {
         // console.log(response); // Seeing the data
+
         setPokemon({
           name: pokeName,
           species: response.data.species,
@@ -30,12 +30,11 @@ function App() {
           defense: response.data.stats[2].base_stat,
           type: response.data.types[0].type.name,
         });
-
         setPokemonChosen(true);
         setPokeName(""); // Clearing entry field
       }
     );
-  };
+  }
 
   return (
     <div className="App">

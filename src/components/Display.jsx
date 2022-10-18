@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import Card from "./Card";
 
 function Display(props) {
   return (
@@ -7,15 +7,7 @@ function Display(props) {
       {!props.pokemonChosen ? (
         <h1>Search for a Pokemon</h1>
       ) : (
-        <div className="PokeDetails">
-          {/*Add css styles as that of card*/}
-          <h1>{props.pokemon.name}</h1>
-          <img src={props.pokemon.img} alt={`${props.pokemon.name}`} />
-          <h3>Type: {props.pokemon.type}</h3> {/* Upper case Type */}
-          <h4>HP: {props.pokemon.hp}</h4>
-          <h4>Attack: {props.pokemon.attack}</h4>
-          <h4>Defense: {props.pokemon.defense}</h4>
-        </div>
+        <Card pokemon={props.pokemon} />
       )}
     </div>
   );
