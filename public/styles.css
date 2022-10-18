@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.Capitalise {
+  text-transform: capitalize;
+}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -14,11 +18,29 @@ body {
 .TitleSection {
   background-color: #5db9ff;
   width: 100%;
-  height: 300px;
+  height: 35rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: #fbd743;
+  font-family: "Oswald", sans-serif;
+}
+
+.TitleSection h1 {
+  font-size: 9rem;
+  text-shadow: rgb(255, 255, 255) 2px 0px 0px,
+    rgb(255, 255, 255) 1.75517px 0.958851px 0px,
+    rgb(255, 255, 255) 1.0806px 1.68294px 0px,
+    rgb(255, 255, 255) 0.141474px 1.99499px 0px,
+    rgb(255, 255, 255) -0.832294px 1.81859px 0px,
+    rgb(255, 255, 255) -1.60229px 1.19694px 0px,
+    rgb(255, 255, 255) -1.97998px 0.28224px 0px,
+    rgb(255, 255, 255) -1.87291px -0.701566px 0px,
+    rgb(255, 255, 255) -1.30729px -1.5136px 0px,
+    rgb(255, 255, 255) -0.421592px -1.95506px 0px,
+    rgb(255, 255, 255) 0.567324px -1.91785px 0px,
+    rgb(255, 255, 255) 1.41734px -1.41108px 0px,
+    rgb(255, 255, 255) 1.92034px -0.558831px 0px;
 }
 
 .TitleSection input {
@@ -28,7 +50,9 @@ body {
   border: 3px solid #1c94f0;
   font-size: 10px;
   padding-left: 10px;
+  margin-top: 50px;
   color: black;
+  font-size: 2rem;
 }
 
 .TitleSection button {
@@ -38,8 +62,10 @@ body {
   border-radius: 10px; /*Nice*/
   font-size: 18px;
   padding-left: 10px;
+  margin-top: 30px;
   color: white;
   background-color: #043c67;
+  font-family: "Silkscreen", cursive;
 }
 
 .TitleSection button:hover {
@@ -50,6 +76,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Noto Serif Telugu", serif;
 }
 
 .DisplaySection h3,
@@ -65,4 +92,16 @@ h4 {
   color: #fff;
   background-color: #212529;
   border-color: #32383e;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
 }

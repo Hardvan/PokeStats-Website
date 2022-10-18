@@ -3,8 +3,8 @@ import React from "react";
 function Table(props) {
   return (
     <div>
-      <table class="table">
-        <thead class="thead-dark">
+      <table className="table">
+        <thead className="thead-dark">
           <tr>
             <th scope="col">Stat</th>
             <th scope="col">Value</th>
