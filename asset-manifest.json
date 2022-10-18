@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/PokeStats-Website/static/js/main.d0eb48c1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PokeStats-Website/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/PokeStats-Website/index.html",
+    "main.d0eb48c1.js.map": "/PokeStats-Website/static/js/main.d0eb48c1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PokeStats-Website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d0eb48c1.js"
+  ]
+}
