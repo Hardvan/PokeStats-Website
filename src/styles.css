@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif; /*Change Font family*/
-  font-size: 25px;
+  font-size: 2vw;
   flex-direction: column;
 }
 
@@ -24,7 +24,7 @@ body {
 .TitleSection {
   background-color: #5db9ff;
   width: 100%;
-  height: 35rem;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .TitleSection h1 {
-  font-size: 9rem;
+  font-size: 10vw;
   text-shadow: rgb(255, 255, 255) 2px 0px 0px,
     rgb(255, 255, 255) 1.75517px 0.958851px 0px,
     rgb(255, 255, 255) 1.0806px 1.68294px 0px,
@@ -50,11 +50,10 @@ body {
 }
 
 .TitleSection input {
-  width: 200px;
-  height: 40px;
+  width: 20vw;
+  height: 9vh;
   border-radius: 10px; /*Nice*/
   border: 3px solid #1c94f0;
-  font-size: 10px;
   padding-left: 10px;
   margin-top: 50px;
   color: black;
@@ -62,11 +61,11 @@ body {
 }
 
 .TitleSection button {
-  width: 180px;
-  height: 60px;
+  width: 20vw;
+  height: 10vh;
   margin: 20px;
   border-radius: 10px; /*Nice*/
-  font-size: 18px;
+  font-size: 1.8vw;
   padding-left: 10px;
   margin-top: 30px;
   color: white;
@@ -83,11 +82,6 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Noto Serif Telugu", serif;
-}
-
-.DisplaySection h3,
-h4 {
-  margin: 5px;
 }
 
 .DisplaySection img {

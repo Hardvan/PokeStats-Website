@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Axios from "axios";
 import Display from "./Display";
 import Footer from "./Footer";
+import "../styles.css";
 
 function App() {
   const [pokeName, setPokeName] = useState("");
