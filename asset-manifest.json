@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PokeStats-Website/static/css/main.952cedb3.css",
-    "main.js": "/PokeStats-Website/static/js/main.3108be1d.js",
+    "main.css": "/PokeStats-Website/static/css/main.4136076a.css",
+    "main.js": "/PokeStats-Website/static/js/main.abb01019.js",
     "static/js/787.28cb0dcd.chunk.js": "/PokeStats-Website/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/PokeStats-Website/index.html",
-    "main.952cedb3.css.map": "/PokeStats-Website/static/css/main.952cedb3.css.map",
-    "main.3108be1d.js.map": "/PokeStats-Website/static/js/main.3108be1d.js.map",
+    "main.4136076a.css.map": "/PokeStats-Website/static/css/main.4136076a.css.map",
+    "main.abb01019.js.map": "/PokeStats-Website/static/js/main.abb01019.js.map",
     "787.28cb0dcd.chunk.js.map": "/PokeStats-Website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.952cedb3.css",
-    "static/js/main.3108be1d.js"
+    "static/css/main.4136076a.css",
+    "static/js/main.abb01019.js"
   ]
 }
