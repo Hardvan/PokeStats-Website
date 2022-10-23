@@ -3,6 +3,7 @@ import Axios from "axios";
 import Display from "./Display";
 import Footer from "./Footer";
 import "../styles.css";
+import getTypeImage from "../getTypeImage";
 
 function App() {
   const [pokeName, setPokeName] = useState("");
@@ -15,6 +16,7 @@ function App() {
     attack: "",
     defense: "",
     type: "",
+    typeImg: "",
   });
   const [error404, setError404] = useState(false); // TODO: display 404 message
 
@@ -40,6 +42,7 @@ function App() {
           attack: response.data.stats[1].base_stat,
           defense: response.data.stats[2].base_stat,
           type: response.data.types[0].type.name,
+          typeImg: getTypeImage(response.data.types[0].type.name),
         });
         setPokemonChosen(true);
         setPokeName(""); // Clearing entry field
@@ -50,13 +53,12 @@ function App() {
   }
 
   return (
-    <div className="App Capitalise">
+    <div className="App">
       <div className="TitleSection">
         <h1>PokeStats</h1>
         <input
           onChange={(event) => {
-            const value = event.target.value;
-            setPokeName(value);
+            setPokeName(event.target.value);
           }}
           type="text"
           value={pokeName}
