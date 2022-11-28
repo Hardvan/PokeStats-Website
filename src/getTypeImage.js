@@ -10,7 +10,7 @@ function getTypeImage(type) {
     case "electric":
       return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2yFSLfw_-W1zzTazxW7OL8cEs-TOwymcDoazu7lblCAPZm6_CUWGWxH-bAHDX34vBnLs&usqp=CAU";
     default:
-      return "None";
+      return "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Fmiscellaneous%2Fcolorful-news-icon%2Fwait-for-10.html&psig=AOvVaw16qGT3348h-CH1y6kYIEzm&ust=1669686249861000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDAkpHgz_sCFQAAAAAdAAAAABAE";
   }
 }
 
